@@ -23,33 +23,34 @@
 
     <ImageButton
         android:id="@+id/actionbar_discard"
-        android:layout_width="37dp"
-        android:layout_height="54dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_gravity="left"
         android:background="#303030"
-        android:gravity="center_vertical"
+        android:gravity="center"
+        android:paddingTop="16dp"
         android:scaleType="fitCenter"
         android:src="@drawable/left" />
 
     <TextView
-        android:layout_width="245dp"
-        android:layout_height="54dp"
+        android:layout_width="246dp"
+        android:layout_height="56dp"
         android:layout_gravity="left"
         android:gravity="center_vertical"
-        android:paddingLeft="8dp"
+        android:paddingLeft="10dp"
         android:text="所有图片"
         android:textColor="#FEFEFE"
         android:textSize="18dp" />
 
     <TextView
         android:id="@+id/actionbar_done"
-        android:layout_width="102dp"
-        android:layout_height="53dp"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
         android:layout_gravity="right"
         android:gravity="center"
-        android:paddingRight="23dp"
+        android:paddingRight="26dp"
         android:text="发送"
         android:textColor="#1B7F31"
-        android:textSize="13dp" />
+        android:textSize="12dp" />
 
 </LinearLayout>
