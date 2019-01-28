@@ -1,4 +1,4 @@
-package com.synconset;
+package com.Hongleilibs.ImagePicker;
 
 import java.net.URI;
 import java.io.ByteArrayOutputStream;
@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.synconset.FakeR;
+import com.Hongleilibs.ImagePicker.FakeR;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
