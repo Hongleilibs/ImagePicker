@@ -94,7 +94,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ImagePicker">
-                <param name="android-package" value="com.Hongleilibs.ImagePicker"/>
+                <param name="android-package" value="com.Hongleilibs.ImagePicker.ImagePicker"/>
             </feature>
         </config-file>
 
@@ -109,11 +109,11 @@
 
         <framework src="com.android.support:appcompat-v7:23+" />
 
-        <source-file src="src/android/com/synconset/ImagePicker/ImagePicker.java" target-dir="src/com/synconset" />
-        <source-file src="src/android/com/synconset/ImagePicker/FakeR.java" target-dir="src/com/synconset" />
+        <source-file src="src/android/com/Hongleilibs/ImagePicker/ImagePicker.java" target-dir="src/com/Hongleilibs/ImagePicker" />
+        <source-file src="src/android/com/Hongleilibs/ImagePicker/FakeR.java" target-dir="src/com/Hongleilibs/ImagePicker" />
 
-        <source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/synconset"/>
-        <source-file src="src/android/Library/src/MultiImageChooserActivity.java" target-dir="src/com/synconset"/>
+        <source-file src="src/android/Library/src/ImageFetcher.java" target-dir="src/com/Hongleilibs/ImagePicker"/>
+        <source-file src="src/android/Library/src/MultiImageChooserActivity.java" target-dir="src/com/Hongleilibs/ImagePicker"/>
 
         <resource-file src="src/android/Library/res/anim/image_pop_in.xml" target="res/anim/image_pop_in.xml"/>
         <resource-file src="src/android/Library/res/drawable/grid_background.xml" target="res/drawable/grid_background.xml"/>
